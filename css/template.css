@@ -1,0 +1,102 @@
+/*Styles base*/
+/*FONTS*/
+/*####*/
+/*base*/
+* {
+  box-sizing: border-box; /*Візуальна модель форматування ,обнуляя відступи по замовченню*/
+}
+:root {
+  --color-brand: #2b7fff;
+  --primary: #011c44;
+  --secondary: black;
+  --background: #fff;
+}
+.container {
+  border: 1px solid;
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto; /*Центрування контенеру*/
+  padding: 0 24px; /*Щоб не прилипало*/
+}
+a {
+  display: inline-block;
+  font:;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+/*Style-link*/
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.nav-menu {
+  border: 1px, solid, yellow;
+}
+.menu {
+  border: 1px, solid, #44ff2b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.aboutus-section {
+  border: 1px, solid, #ffd82b;
+}
+/*aboutus-section*/
+.aboutus-section {
+  /*text-align: left;*/
+  padding-top: 37px;
+}
+.aboutus-container {
+  display: flex;
+  margin-bottom: 140px;
+  /*justify-content: space-around;*/
+  /*justify-content:;*/
+  justify-content: space-between;
+}
+
+aboutus-text {
+  display: block;
+  border: 3px, solid, #0bebeb;
+  padding: 40px;
+  /*max-width: 674px;*/
+}
+.text-us {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 173%;
+  color: var(--primary);
+}
+/*.aboutus {
+  margin-bottom: 40px;
+}*/
+.beauty-img {
+  border: 1px, solid, #ff2b36;
+  display: flex;
+  /*flex-basis: calc(40% -32 / 2);*/
+  flex-direction: column; /* Элементы в колонку */
+  justify-content: space-between; /* Распределить по вертикали */
+  /*height: 100px;*/
+  gap: 40px;
+}
+.down {
+  align-self: flex-start;
+} /* Вверху слева */
+.up {
+  align-self: flex-end;
+}
+/* Внизу справа */
+.beauty {
+  width: 335px;
+  height: 328px;
+  border-radius: 50%;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.2);
+}
