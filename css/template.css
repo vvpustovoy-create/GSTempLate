@@ -43,7 +43,7 @@ ul {
 .menu {
   border: 1px, solid, #44ff2b;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   gap: 100px;
 }
@@ -58,22 +58,21 @@ ul {
 .aboutus-container {
   display: flex;
   margin-bottom: 140px;
-  /*justify-content: space-around;*/
-  /*justify-content:;*/
-  justify-content: space-between;
+  gap: 32px;
 }
 
 aboutus-text {
   display: block;
   border: 3px, solid, #0bebeb;
   padding: 40px;
-  /*max-width: 674px;*/
+  width: 709px;
 }
 .text-us {
   font-weight: 400;
   font-size: 22px;
   line-height: 173%;
   color: var(--primary);
+  border: 3px, solid, #0bebeb;
 }
 /*.aboutus {
   margin-bottom: 40px;
@@ -81,22 +80,45 @@ aboutus-text {
 .beauty-img {
   border: 1px, solid, #ff2b36;
   display: flex;
+  max-width: 499px;
+  width: 100%;
   /*flex-basis: calc(40% -32 / 2);*/
   flex-direction: column; /* Элементы в колонку */
   justify-content: space-between; /* Распределить по вертикали */
   /*height: 100px;*/
   gap: 40px;
+  position: relative;
 }
 .down {
   align-self: flex-start;
 } /* Вверху слева */
 .up {
   align-self: flex-end;
-}
-/* Внизу справа */
+} /* Внизу справа */
 .beauty {
-  width: 335px;
-  height: 328px;
+  max-width: 335px;
+  width: 100%;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.2);
+}
+.star-icon {
+  position: absolute;
+}
+.star-blue {
+  fill: var(--color-brand);
+  top: 32px;
+  right: -27px;
+  transform: rotate(45deg);
+}
+
+.star-small {
+  fill: #747272;
+  top: 269px;
+  right: 6px;
+}
+.star-big {
+  fill: #011f4a;
+  top: 336px;
+  right: 295px;
 }
