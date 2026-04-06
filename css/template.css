@@ -20,7 +20,7 @@
 }
 a {
   display: inline-block;
-  font:;
+  font: 'Roboto', sans-serif;
 }
 h1,
 h2,
@@ -121,3 +121,4 @@ aboutus-text {
   top: 336px;
   right: 295px;
 }
+/**/
